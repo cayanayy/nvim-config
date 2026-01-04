@@ -1,0 +1,36 @@
+return {}
+--return {
+--    "nvim-tree/nvim-tree.lua",
+--    version = "*",
+--    lazy = false,
+--    dependencies = {
+--        "nvim-tree/nvim-web-devicons",
+--    },
+--    config = function()
+--        require("nvim-tree").setup({
+--            sort_by = "case_sensitive",
+--            view = {
+--                width = 30,
+--                side = "left",
+--            },
+--            renderer = {
+--                group_empty = true,
+--                icons = {
+--                    show = {
+--                        file = true,
+--                        folder = true,
+--                        folder_arrow = true,
+--                        git = true,
+--                    },
+--                },
+--            },
+--            filters = {
+--                dotfiles = true,
+--            },
+--        })
+--
+--        -- nvim-tree'yi açıp kapatmak için kısayol
+--        vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { desc = 'Explorer (Toggle)' })
+--        vim.keymap.set('n', '<leader>er', ':NvimTreeFocus<CR>', { desc = 'Explorer (Focus)' })
+--    end,
+--}
