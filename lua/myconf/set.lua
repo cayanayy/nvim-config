@@ -11,4 +11,8 @@ vim.opt.scrolloff = 8
 
 vim.opt.smartindent = true
 
+-- vim.opt.colorcolumn = "120"
+
+vim.opt.updatetime = 50
+
 vim.opt.wrap = false

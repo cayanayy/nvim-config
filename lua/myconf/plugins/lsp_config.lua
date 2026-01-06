@@ -36,5 +36,23 @@ return {
                 end,
             }
         })
+
+        vim.diagnostic.config({
+            update_in_insert = true,
+            severity_sort = true,
+            virtual_text = {
+                spacing = 4,
+                source = "if_many",
+                prefix = "●",
+            },
+            float = {
+                focusable = false,
+                style = "minimal",
+                border = "rounded",
+                source = "always",
+                header = "",
+                prefix = "",
+            },
+        })
     end
 }
